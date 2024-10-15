@@ -51,6 +51,51 @@
             Console.WriteLine("Email Adresi : " + customerEmail);
             Console.WriteLine("Adres : " + customerDistrict + "/" + customerCity);
             Console.WriteLine("-------------------------------");
+            Console.WriteLine();
+            Console.WriteLine();
+
+            #endregion
+
+
+
+            #region Int Değişkenler
+            int number = 24;
+            Console.WriteLine(number);
+            Console.WriteLine();
+            Console.WriteLine();
+
+            int hamburgerPrice = 300;
+            int cokePrice = 35;
+            int waterPrice = 10;
+            int friesPrice = 50;
+            int pizzaPrice = 250;
+            int lemonadePrice = 30;
+            Console.WriteLine("***** Restoran Menü Listesi *****");
+            Console.WriteLine();
+            Console.WriteLine("-----Hamburger : " + hamburgerPrice + "TL");
+            Console.WriteLine("-----Kola : " + cokePrice + "TL");
+            Console.WriteLine("-----Su : " + waterPrice + "TL");
+            Console.WriteLine("-----Kızartma : " + friesPrice + "TL");
+            Console.WriteLine("-----Pizza : " + pizzaPrice + "TL");
+            Console.WriteLine("-----Limonata : " + lemonadePrice + "TL");
+            Console.WriteLine();
+            Console.WriteLine("***** Restoran Menü Listesi *****");
+            Console.WriteLine();
+
+            int totalHamburgerPrice = 0;
+            int totalCokePrice = 0;
+            int totalWaterPrice = 0;
+            int hamburgerCount = 3;
+            int cokeCount = 3;
+            int waterCount = 3;
+
+            totalHamburgerPrice = hamburgerCount * hamburgerPrice;
+            totalCokePrice = cokeCount * cokePrice;
+            totalWaterPrice = waterCount * waterPrice;
+            int totalPrice = totalHamburgerPrice + totalCokePrice + totalWaterPrice;
+            Console.WriteLine("Toplam fiyat: " + totalPrice);
+
+
             #endregion
 
 
