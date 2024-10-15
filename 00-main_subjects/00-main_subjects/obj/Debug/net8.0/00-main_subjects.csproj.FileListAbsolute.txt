@@ -12,3 +12,4 @@
 /home/ozcan/software/C#-Egitim-Kampi/00-main_subjects/00-main_subjects/obj/Debug/net8.0/00-main_subjects.pdb
 /home/ozcan/software/C#-Egitim-Kampi/00-main_subjects/00-main_subjects/obj/Debug/net8.0/00-main_subjects.genruntimeconfig.cache
 /home/ozcan/software/C#-Egitim-Kampi/00-main_subjects/00-main_subjects/obj/Debug/net8.0/ref/00-main_subjects.dll
+/home/ozcan/software/C#-Egitim-Kampi/00-main_subjects/00-main_subjects/obj/Debug/net8.0/00-main_subjects.sourcelink.json

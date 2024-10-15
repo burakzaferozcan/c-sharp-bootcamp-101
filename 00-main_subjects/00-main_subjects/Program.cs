@@ -28,6 +28,32 @@
             Console.WriteLine("***** Yemek Kategorileri *****");
             #endregion
 
+
+
+            #region String Değişkenler
+            string name = "burak";
+            Console.WriteLine(name);
+            Console.WriteLine();
+            Console.WriteLine();
+
+            string customerName = "burak";
+            string customerSurname = "özcan";
+            string customerPhone = "+90 555 555 5555";
+            string customerEmail = "ozcanburakzafer@mail.com";
+            string customerDistrict = "Çayırova";
+            string customerCity = "Kocaeli";
+
+            Console.WriteLine("***** Rezervasyon Kartı *****");
+            Console.WriteLine();
+            Console.WriteLine("Müşteri : " + customerName + " " + customerSurname);
+            Console.WriteLine("-------------------------------");
+            Console.WriteLine("İletişim : " + customerPhone);
+            Console.WriteLine("Email Adresi : " + customerEmail);
+            Console.WriteLine("Adres : " + customerDistrict + "/" + customerCity);
+            Console.WriteLine("-------------------------------");
+            #endregion
+
+
             Console.Read();
         }
     }
