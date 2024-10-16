@@ -120,15 +120,21 @@
 
 
             #region Klavyeden double veri girişleri 
-            // Console.Write("Lütfen aldığınız notu giriniz : ");
-            // double exam = double.Parse(Console.ReadLine());
-            // Console.Write("notunuz : " + exam);
+            Console.Write("Lütfen aldığınız notu giriniz : ");
+            double exam = double.Parse(Console.ReadLine());
+            Console.Write("notunuz : " + exam);
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
             #endregion
 
             #region Klavyeden double veri girişleri 
             Console.Write("lütfen cinsiyet seçiniz: ");
             char gender = char.Parse(Console.ReadLine());
             Console.WriteLine("Seçtiğiniz cinsiyet : " + gender);
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
             #endregion
 
             Console.Read();
