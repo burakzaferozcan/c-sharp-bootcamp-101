@@ -61,67 +61,71 @@
 
 
             #region Klavyeden string veri girişleri 
-            Console.WriteLine("***** Csharop hava yolları yolcu bilgisi *****");
-            Console.WriteLine();
-            string customerName, customerSurname, customerDistrict, customerCity, customerAge, customerIdentitiyNumber;
-            Console.Write("Yolcu Adı : ");
-            customerName = Console.ReadLine();
-            Console.Write("Yolcu Soyadı : ");
-            customerSurname = Console.ReadLine();
-            Console.Write("Yolcu yaşadığı şehir : ");
-            customerCity = Console.ReadLine();
-            Console.Write("Yolcu yaşadığı ilçe : ");
-            customerDistrict = Console.ReadLine();
-            Console.Write("Yolcu yaşı : ");
-            customerAge = Console.ReadLine();
-            Console.Write("Yolcu TC kimlik numarası : ");
-            customerIdentitiyNumber = Console.ReadLine();
-            Console.WriteLine("----------------------------");
-            Console.WriteLine("Yolcu bilgileri : \n" + customerName + " " + customerSurname + " " + customerCity + " " + customerDistrict + " " + customerAge + " " + customerIdentitiyNumber);
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
+            // Console.WriteLine("***** Csharop hava yolları yolcu bilgisi *****");
+            // Console.WriteLine();
+            // string customerName, customerSurname, customerDistrict, customerCity, customerAge, customerIdentitiyNumber;
+            // Console.Write("Yolcu Adı : ");
+            // customerName = Console.ReadLine();
+            // Console.Write("Yolcu Soyadı : ");
+            // customerSurname = Console.ReadLine();
+            // Console.Write("Yolcu yaşadığı şehir : ");
+            // customerCity = Console.ReadLine();
+            // Console.Write("Yolcu yaşadığı ilçe : ");
+            // customerDistrict = Console.ReadLine();
+            // Console.Write("Yolcu yaşı : ");
+            // customerAge = Console.ReadLine();
+            // Console.Write("Yolcu TC kimlik numarası : ");
+            // customerIdentitiyNumber = Console.ReadLine();
+            // Console.WriteLine("----------------------------");
+            // Console.WriteLine("Yolcu bilgileri : \n" + customerName + " " + customerSurname + " " + customerCity + " " + customerDistrict + " " + customerAge + " " + customerIdentitiyNumber);
+            // Console.WriteLine();
+            // Console.WriteLine();
+            // Console.WriteLine();
 
             #endregion
 
 
 
             #region Klavyeden integer veri girişleri 
-            int shoePrice, computerPrice, chairPrice, tvPrice;
-            shoePrice = 1000;
-            computerPrice = 20000;
-            chairPrice = 5000;
-            tvPrice = 12000;
-            int shoeCount, computerCount, chairCount, tvCount;
-
-            Console.Write("Lütfen aldığınız ayakkabı sayısını giriniz : ");
-            shoeCount = int.Parse(Console.ReadLine());
-            Console.Write("Lütfen aldığınız bilgisayar sayısını giriniz : ");
-            computerCount = int.Parse(Console.ReadLine());
-            Console.Write("Lütfen aldığınız sandalye sayısını giriniz : ");
-            chairCount = int.Parse(Console.ReadLine());
-            Console.Write("Lütfen aldığınız televizyon sayısını giriniz : ");
-            tvCount = int.Parse(Console.ReadLine());
-
-            int shoeTotalPrice = shoePrice * shoeCount;
-            int computerTotalPrice = computerPrice * computerCount;
-            int chairTotalPrice = chairPrice * chairCount;
-            int tvTotalPrice = tvPrice * tvCount;
-
-            Console.WriteLine();
-            Console.WriteLine("Satın alınan toplam ayakkabı fiyatı : " + shoeTotalPrice);
-            Console.WriteLine("Satın alınan toplam bilgisayar fiyatı : " + computerTotalPrice);
-            Console.WriteLine("Satın alınan toplam sandalye fiyatı : " + chairTotalPrice);
-            Console.WriteLine("Satın alınan toplam televizyon fiyatı : " + tvTotalPrice);
-
-            int totalPrice = shoeTotalPrice + computerTotalPrice + chairTotalPrice + tvTotalPrice;
-            Console.WriteLine("Alışveriş Toplamı : " + totalPrice);
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
+            // int shoePrice, computerPrice, chairPrice, tvPrice;
+            // shoePrice = 1000;
+            // computerPrice = 20000;
+            // chairPrice = 5000;
+            // tvPrice = 12000;
+            // int shoeCount, computerCount, chairCount, tvCount;
+            // Console.Write("Lütfen aldığınız ayakkabı sayısını giriniz : ");
+            // shoeCount = int.Parse(Console.ReadLine());
+            // Console.Write("Lütfen aldığınız bilgisayar sayısını giriniz : ");
+            // computerCount = int.Parse(Console.ReadLine());
+            // Console.Write("Lütfen aldığınız sandalye sayısını giriniz : ");
+            // chairCount = int.Parse(Console.ReadLine());
+            // Console.Write("Lütfen aldığınız televizyon sayısını giriniz : ");
+            // tvCount = int.Parse(Console.ReadLine());
+            // int shoeTotalPrice = shoePrice * shoeCount;
+            // int computerTotalPrice = computerPrice * computerCount;
+            // int chairTotalPrice = chairPrice * chairCount;
+            // int tvTotalPrice = tvPrice * tvCount;
+            // Console.WriteLine();
+            // Console.WriteLine("Satın alınan toplam ayakkabı fiyatı : " + shoeTotalPrice);
+            // Console.WriteLine("Satın alınan toplam bilgisayar fiyatı : " + computerTotalPrice);
+            // Console.WriteLine("Satın alınan toplam sandalye fiyatı : " + chairTotalPrice);
+            // Console.WriteLine("Satın alınan toplam televizyon fiyatı : " + tvTotalPrice);
+            // int totalPrice = shoeTotalPrice + computerTotalPrice + chairTotalPrice + tvTotalPrice;
+            // Console.WriteLine("Alışveriş Toplamı : " + totalPrice);
+            // Console.WriteLine();
+            // Console.WriteLine();
+            // Console.WriteLine();
 
             #endregion
 
+
+            #region Klavyeden double veri girişleri 
+
+            #endregion
+            Console.Write("Lütfen aldığınız notu giriniz : ");
+            double exam = double.Parse(Console.ReadLine());
+
+            Console.Write("notunuz : " + exam);
 
             Console.Read();
         }
