@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("01-veriables_and_data_entry")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+929bca01ab7245d7014b508ee43654ead678b508")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc0a8c27310bbad94988ecc66581275d7984806c")]
 [assembly: System.Reflection.AssemblyProductAttribute("01-veriables_and_data_entry")]
 [assembly: System.Reflection.AssemblyTitleAttribute("01-veriables_and_data_entry")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
