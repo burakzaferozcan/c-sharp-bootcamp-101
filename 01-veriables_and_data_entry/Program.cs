@@ -44,8 +44,21 @@
 
             double shoppingTotalPrice = appleTotalPrice + orangeTotalPrice + strawberryTotalPrice + potatoTotalPrice + tomatoTotalPrice;
             Console.WriteLine("Alışveriş Toplam Ödenecek Tutar: " + shoppingTotalPrice + "TL");
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
 
             #endregion
+
+
+            #region Char değişkenler
+
+            char symbol;
+            symbol = 'a';
+            Console.WriteLine(symbol);
+
+            #endregion
+
             Console.Read();
         }
     }
