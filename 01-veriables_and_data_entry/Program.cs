@@ -59,6 +59,32 @@
 
             #endregion
 
+
+            #region Klavyeden veri girişleri
+            Console.WriteLine("***** Csharop hava yolları yolcu bilgisi *****");
+            Console.WriteLine();
+            string customerName, customerSurname, customerDistrict, customerCity, customerAge, customerIdentitiyNumber;
+            Console.Write("Yolcu Adı : ");
+            customerName = Console.ReadLine();
+            Console.Write("Yolcu Soyadı : ");
+            customerSurname = Console.ReadLine();
+            Console.Write("Yolcu yaşadığı şehir : ");
+            customerCity = Console.ReadLine();
+            Console.Write("Yolcu yaşadığı ilçe : ");
+            customerDistrict = Console.ReadLine();
+            Console.Write("Yolcu yaşı : ");
+            customerAge = Console.ReadLine();
+            Console.Write("Yolcu TC kimlik numarası : ");
+            customerIdentitiyNumber = Console.ReadLine();
+            Console.WriteLine("----------------------------");
+            Console.WriteLine("Yolcu bilgileri : \n" + customerName + " " + customerSurname + " " + customerCity + " " + customerDistrict + " " + customerAge + " " + customerIdentitiyNumber);
+
+
+
+
+
+            #endregion
+
             Console.Read();
         }
     }

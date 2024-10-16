@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01-veriables_and_data_entry", "01-veriables_and_data_entry.csproj", "{842CFCD4-7B44-4DCC-8B44-6ED9B67B9B99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{842CFCD4-7B44-4DCC-8B44-6ED9B67B9B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842CFCD4-7B44-4DCC-8B44-6ED9B67B9B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842CFCD4-7B44-4DCC-8B44-6ED9B67B9B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842CFCD4-7B44-4DCC-8B44-6ED9B67B9B99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D2267F3-4E6B-4FD9-841C-ABF237C689A7}
+	EndGlobalSection
+EndGlobal
