@@ -1,0 +1,15 @@
+/home/ozcan/software/C#-Egitim-Kampi/01-veriables_and_data_entry/bin/Debug/net8.0/01-veriables_and_data_entry
+/home/ozcan/software/C#-Egitim-Kampi/01-veriables_and_data_entry/bin/Debug/net8.0/01-veriables_and_data_entry.deps.json
+/home/ozcan/software/C#-Egitim-Kampi/01-veriables_and_data_entry/bin/Debug/net8.0/01-veriables_and_data_entry.runtimeconfig.json
+/home/ozcan/software/C#-Egitim-Kampi/01-veriables_and_data_entry/bin/Debug/net8.0/01-veriables_and_data_entry.dll
+/home/ozcan/software/C#-Egitim-Kampi/01-veriables_and_data_entry/bin/Debug/net8.0/01-veriables_and_data_entry.pdb
+/home/ozcan/software/C#-Egitim-Kampi/01-veriables_and_data_entry/obj/Debug/net8.0/01-veriables_and_data_entry.GeneratedMSBuildEditorConfig.editorconfig
+/home/ozcan/software/C#-Egitim-Kampi/01-veriables_and_data_entry/obj/Debug/net8.0/01-veriables_and_data_entry.AssemblyInfoInputs.cache
+/home/ozcan/software/C#-Egitim-Kampi/01-veriables_and_data_entry/obj/Debug/net8.0/01-veriables_and_data_entry.AssemblyInfo.cs
+/home/ozcan/software/C#-Egitim-Kampi/01-veriables_and_data_entry/obj/Debug/net8.0/01-veriables_and_data_entry.csproj.CoreCompileInputs.cache
+/home/ozcan/software/C#-Egitim-Kampi/01-veriables_and_data_entry/obj/Debug/net8.0/01-veriables_and_data_entry.sourcelink.json
+/home/ozcan/software/C#-Egitim-Kampi/01-veriables_and_data_entry/obj/Debug/net8.0/01-veriables_and_data_entry.dll
+/home/ozcan/software/C#-Egitim-Kampi/01-veriables_and_data_entry/obj/Debug/net8.0/refint/01-veriables_and_data_entry.dll
+/home/ozcan/software/C#-Egitim-Kampi/01-veriables_and_data_entry/obj/Debug/net8.0/01-veriables_and_data_entry.pdb
+/home/ozcan/software/C#-Egitim-Kampi/01-veriables_and_data_entry/obj/Debug/net8.0/01-veriables_and_data_entry.genruntimeconfig.cache
+/home/ozcan/software/C#-Egitim-Kampi/01-veriables_and_data_entry/obj/Debug/net8.0/ref/01-veriables_and_data_entry.dll
