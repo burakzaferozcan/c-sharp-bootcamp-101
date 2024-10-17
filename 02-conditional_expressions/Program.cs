@@ -201,8 +201,9 @@ namespace _02_condintional_expressions
                 Console.WriteLine("5-kazandibi");
             }
 
-
             #endregion
+
+
 
             #region Switch Case
             Console.Write("Lütfen ay girişi yapınız : ");
@@ -247,6 +248,41 @@ namespace _02_condintional_expressions
                     break;
                 default:
                     Console.WriteLine("Lütfen geçerli bir değer giriniz");
+                    break;
+            }
+            #endregion
+
+
+            #region Hesap Makinesi
+            int calculateNumber1, calculateNumber2, calculateResult;
+            char calculateSymbol;
+            Console.Write("1. sayıyı giriniz : ");
+            calculateNumber1 = int.Parse(Console.ReadLine());
+            Console.Write("2. sayıyı giriniz : ");
+            calculateNumber2 = int.Parse(Console.ReadLine());
+            Console.Write("yapmak istediğiniz işlemi giriniz (+,-,*,/) : ");
+            calculateSymbol = char.Parse(Console.ReadLine());
+            switch (calculateSymbol)
+            {
+                case '+':
+                    calculateResult = calculateNumber1 + calculateNumber2;
+                    Console.WriteLine("Cevap : " + calculateResult);
+                    break;
+
+                case '-':
+                    calculateResult = calculateNumber1 - calculateNumber2;
+                    Console.WriteLine("Cevap : " + calculateResult);
+                    break;
+                case '*':
+                    calculateResult = calculateNumber1 * calculateNumber2;
+                    Console.WriteLine("Cevap : " + calculateResult);
+                    break;
+                case '/':
+                    calculateResult = calculateNumber1 + calculateNumber2;
+                    Console.WriteLine("Cevap : " + calculateResult);
+                    break;
+                default:
+                    Console.WriteLine("Lütfen geçerli bir işlem seçiniz");
                     break;
             }
 
