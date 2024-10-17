@@ -96,6 +96,31 @@ namespace _02_condintional_expressions
             }
 
             #endregion
+
+            #region Mod İşlemleri
+            Console.Write("Lütfen 1. sayıyı giriniz : ");
+            int number1 = int.Parse(Console.ReadLine());
+            Console.Write("Lütfen 2. sayıyı giriniz : ");
+            int number2 = int.Parse(Console.ReadLine());
+            int numberResult = number1 % number2;
+            Console.WriteLine("1. sayının 2. sayıya bölümünden kalan : " + numberResult);
+
+            Console.Write("Lütfen tek mi çift mi oldugunu kontrol edeceğiniz sayıyı giriniz : ");
+            int evenOrOddNumber = int.Parse(Console.ReadLine());
+            if (evenOrOddNumber % 2 == 0)
+            {
+                Console.WriteLine("sayı çift");
+            }
+            else
+            {
+                Console.WriteLine("sayı tek");
+
+            }
+            #endregion
+
+            Console.Read();
+
+
         }
     }
 }
