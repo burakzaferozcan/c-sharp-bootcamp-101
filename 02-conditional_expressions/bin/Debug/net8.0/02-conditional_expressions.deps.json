@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "02-conditional_expressions/1.0.0": {
+        "runtime": {
+          "02-conditional_expressions.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "02-conditional_expressions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

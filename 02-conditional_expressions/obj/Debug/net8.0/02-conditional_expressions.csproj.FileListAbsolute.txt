@@ -1,0 +1,15 @@
+/home/ozcan/software/C#-Egitim-Kampi/02-conditional_expressions/bin/Debug/net8.0/02-conditional_expressions
+/home/ozcan/software/C#-Egitim-Kampi/02-conditional_expressions/bin/Debug/net8.0/02-conditional_expressions.deps.json
+/home/ozcan/software/C#-Egitim-Kampi/02-conditional_expressions/bin/Debug/net8.0/02-conditional_expressions.runtimeconfig.json
+/home/ozcan/software/C#-Egitim-Kampi/02-conditional_expressions/bin/Debug/net8.0/02-conditional_expressions.dll
+/home/ozcan/software/C#-Egitim-Kampi/02-conditional_expressions/bin/Debug/net8.0/02-conditional_expressions.pdb
+/home/ozcan/software/C#-Egitim-Kampi/02-conditional_expressions/obj/Debug/net8.0/02-conditional_expressions.GeneratedMSBuildEditorConfig.editorconfig
+/home/ozcan/software/C#-Egitim-Kampi/02-conditional_expressions/obj/Debug/net8.0/02-conditional_expressions.AssemblyInfoInputs.cache
+/home/ozcan/software/C#-Egitim-Kampi/02-conditional_expressions/obj/Debug/net8.0/02-conditional_expressions.AssemblyInfo.cs
+/home/ozcan/software/C#-Egitim-Kampi/02-conditional_expressions/obj/Debug/net8.0/02-conditional_expressions.csproj.CoreCompileInputs.cache
+/home/ozcan/software/C#-Egitim-Kampi/02-conditional_expressions/obj/Debug/net8.0/02-conditional_expressions.sourcelink.json
+/home/ozcan/software/C#-Egitim-Kampi/02-conditional_expressions/obj/Debug/net8.0/02-conditional_expressions.dll
+/home/ozcan/software/C#-Egitim-Kampi/02-conditional_expressions/obj/Debug/net8.0/refint/02-conditional_expressions.dll
+/home/ozcan/software/C#-Egitim-Kampi/02-conditional_expressions/obj/Debug/net8.0/02-conditional_expressions.pdb
+/home/ozcan/software/C#-Egitim-Kampi/02-conditional_expressions/obj/Debug/net8.0/02-conditional_expressions.genruntimeconfig.cache
+/home/ozcan/software/C#-Egitim-Kampi/02-conditional_expressions/obj/Debug/net8.0/ref/02-conditional_expressions.dll
