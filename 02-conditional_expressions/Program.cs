@@ -83,7 +83,7 @@ namespace _02_condintional_expressions
             }
 
             string city;
-            Console.Write("Lütfen şehir girişi yapınız.");
+            Console.Write("Lütfen şehir girişi yapınız : ");
             city = Console.ReadLine();
             if (city == "adana" | city == "ankara" | city == "bursa" | city == "trabzone")
             {
@@ -143,6 +143,67 @@ namespace _02_condintional_expressions
             }
 
             #endregion
+
+            #region Örnek Uygulama
+            Console.WriteLine("***** C# Eğitim Kampı Restoran *****");
+            Console.WriteLine();
+            Console.WriteLine("1-Ana Yemekler");
+            Console.WriteLine("2-Çorbalar");
+            Console.WriteLine("3-Pizzalar");
+            Console.WriteLine("4-İçecekler");
+            Console.WriteLine("5-Tatlılar");
+
+            string menuItem;
+            Console.WriteLine("Detayını görmek istediğiniz menüyü seçin : ");
+            menuItem = Console.ReadLine();
+            if (menuItem == "1")
+            {
+                Console.WriteLine("Ana Yemekler");
+                Console.WriteLine("1-tavuk");
+                Console.WriteLine("2-kızartma");
+                Console.WriteLine("3-fasulye");
+                Console.WriteLine("4-somon");
+                Console.WriteLine("5-musakka");
+            }
+            else if (menuItem == "2")
+            {
+                Console.WriteLine("çorbalar");
+                Console.WriteLine("1-tarhana");
+                Console.WriteLine("2-mercimek");
+                Console.WriteLine("3-kellepaça");
+                Console.WriteLine("4-işkembe");
+                Console.WriteLine("5-domates");
+            }
+            else if (menuItem == "3")
+            {
+                Console.WriteLine("Pizzalar");
+                Console.WriteLine("1-karışık");
+                Console.WriteLine("2-peynirli");
+                Console.WriteLine("3-pastırmalı");
+                Console.WriteLine("4-sucuklu");
+                Console.WriteLine("5-yeşillikli");
+            }
+            else if (menuItem == "4")
+            {
+                Console.WriteLine("İçecekler");
+                Console.WriteLine("1-fanta");
+                Console.WriteLine("2-kola");
+                Console.WriteLine("3-ayran");
+                Console.WriteLine("4-su");
+            }
+            else if (menuItem == "5")
+            {
+                Console.WriteLine("Tatlılar");
+                Console.WriteLine("1-baklava");
+                Console.WriteLine("2-sufle");
+                Console.WriteLine("3-künefe");
+                Console.WriteLine("4-tiramisu");
+                Console.WriteLine("5-kazandibi");
+            }
+
+
+            #endregion
+
 
             Console.Read();
 
