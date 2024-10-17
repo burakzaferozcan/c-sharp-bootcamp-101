@@ -118,6 +118,32 @@ namespace _02_condintional_expressions
             }
             #endregion
 
+
+
+
+            #region Char değişkenler ile karar yapıları
+            char team;
+            Console.Write("lütfen takım sembolünü giriniz : ");
+            team = char.Parse(Console.ReadLine());
+            if (team == 'g' | team == 'G')
+            {
+                Console.WriteLine("Galatasaray");
+            }
+            else if (team == 'f' | team == 'f')
+            {
+                Console.WriteLine("Fenerbahçe");
+            }
+            else if (team == 'b' | team == 'b')
+            {
+                Console.WriteLine("Beşiktaş");
+            }
+            else
+            {
+                Console.WriteLine("Lütfen geçerli bir sembol giriniz");
+            }
+
+            #endregion
+
             Console.Read();
 
 
