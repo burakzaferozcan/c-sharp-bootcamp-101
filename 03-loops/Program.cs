@@ -75,6 +75,20 @@ namespace _03_loops
                 bacterium *= 2;
                 Console.WriteLine(i + ". saat sonunda bakteri sayısı : " + bacterium);
             }
+            Console.WriteLine("------------------------");
+
+            #endregion
+
+
+            #region While Döngüsü
+            int j = 1;
+            while (j <= 10)
+            {
+                Console.WriteLine("Merhaba while döngüsü");
+                j++;
+            }
+            Console.WriteLine("------------------------");
+
             #endregion
 
             Console.Read();
