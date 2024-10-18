@@ -62,7 +62,19 @@ namespace _03_loops
                 }
             }
             Console.WriteLine("count değeri adedi : " + count);
+            Console.WriteLine("------------------------");
 
+            #endregion
+
+
+
+            #region For Döngüsü Örnek
+            int bacterium = 1;
+            for (int i = 1; i <= 24; i++)
+            {
+                bacterium *= 2;
+                Console.WriteLine(i + ". saat sonunda bakteri sayısı : " + bacterium);
+            }
             #endregion
 
             Console.Read();
