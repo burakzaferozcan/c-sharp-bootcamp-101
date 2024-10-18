@@ -115,6 +115,26 @@ namespace _03_loops
             Console.WriteLine("------------------------");
 
             #endregion
+
+            #region Örnek Sınav Sorusu
+            //! Klavyeden girilen 3 basamaklı sayının basamakları toplamını hesaplayan programı yazınız.
+            Console.Write("Sayıyı giriniz : ");
+            int number = int.Parse(Console.ReadLine());
+            int ones, tens, hundreds;
+            int sumExam;
+
+            ones = number % 10;
+            tens = (number % 100) / 10;
+            hundreds = number / 100;
+            sumExam = ones + tens + hundreds;
+            Console.WriteLine("Birler basamağı : " + ones);
+            Console.WriteLine("Onlar basamağı : " + tens);
+            Console.WriteLine("Yüzler basamağı : " + hundreds);
+            Console.WriteLine("Basamaklar toplamı : " + sumExam);
+
+
+            #endregion
+
             Console.Read();
         }
     }
