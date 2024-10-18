@@ -91,6 +91,30 @@ namespace _03_loops
 
             #endregion
 
+
+            #region While Döngüsü Karar Yapıları
+            int k = 1;
+            while (k <= 10)
+            {
+                if (k % 3 == 0)
+                {
+                    Console.WriteLine(k);
+                }
+                k++;
+            }
+            Console.WriteLine("------------------------");
+
+            int l = 1;
+            int sum = 0;
+            while (l <= 10)
+            {
+                sum += l;
+                l++;
+            }
+            Console.WriteLine(sum);
+            Console.WriteLine("------------------------");
+
+            #endregion
             Console.Read();
         }
     }
