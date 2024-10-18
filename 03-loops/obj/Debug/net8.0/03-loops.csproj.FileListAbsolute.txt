@@ -1,0 +1,15 @@
+/home/ozcan/software/C#-Egitim-Kampi/03-loops/bin/Debug/net8.0/03-loops
+/home/ozcan/software/C#-Egitim-Kampi/03-loops/bin/Debug/net8.0/03-loops.deps.json
+/home/ozcan/software/C#-Egitim-Kampi/03-loops/bin/Debug/net8.0/03-loops.runtimeconfig.json
+/home/ozcan/software/C#-Egitim-Kampi/03-loops/bin/Debug/net8.0/03-loops.dll
+/home/ozcan/software/C#-Egitim-Kampi/03-loops/bin/Debug/net8.0/03-loops.pdb
+/home/ozcan/software/C#-Egitim-Kampi/03-loops/obj/Debug/net8.0/03-loops.GeneratedMSBuildEditorConfig.editorconfig
+/home/ozcan/software/C#-Egitim-Kampi/03-loops/obj/Debug/net8.0/03-loops.AssemblyInfoInputs.cache
+/home/ozcan/software/C#-Egitim-Kampi/03-loops/obj/Debug/net8.0/03-loops.AssemblyInfo.cs
+/home/ozcan/software/C#-Egitim-Kampi/03-loops/obj/Debug/net8.0/03-loops.csproj.CoreCompileInputs.cache
+/home/ozcan/software/C#-Egitim-Kampi/03-loops/obj/Debug/net8.0/03-loops.sourcelink.json
+/home/ozcan/software/C#-Egitim-Kampi/03-loops/obj/Debug/net8.0/03-loops.dll
+/home/ozcan/software/C#-Egitim-Kampi/03-loops/obj/Debug/net8.0/refint/03-loops.dll
+/home/ozcan/software/C#-Egitim-Kampi/03-loops/obj/Debug/net8.0/03-loops.pdb
+/home/ozcan/software/C#-Egitim-Kampi/03-loops/obj/Debug/net8.0/03-loops.genruntimeconfig.cache
+/home/ozcan/software/C#-Egitim-Kampi/03-loops/obj/Debug/net8.0/ref/03-loops.dll
