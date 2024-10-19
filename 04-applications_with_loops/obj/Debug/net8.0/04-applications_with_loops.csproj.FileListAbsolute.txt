@@ -1,0 +1,15 @@
+/home/ozcan/software/C#-Egitim-Kampi/04-applications_with_loops/bin/Debug/net8.0/04-applications_with_loops
+/home/ozcan/software/C#-Egitim-Kampi/04-applications_with_loops/bin/Debug/net8.0/04-applications_with_loops.deps.json
+/home/ozcan/software/C#-Egitim-Kampi/04-applications_with_loops/bin/Debug/net8.0/04-applications_with_loops.runtimeconfig.json
+/home/ozcan/software/C#-Egitim-Kampi/04-applications_with_loops/bin/Debug/net8.0/04-applications_with_loops.dll
+/home/ozcan/software/C#-Egitim-Kampi/04-applications_with_loops/bin/Debug/net8.0/04-applications_with_loops.pdb
+/home/ozcan/software/C#-Egitim-Kampi/04-applications_with_loops/obj/Debug/net8.0/04-applications_with_loops.GeneratedMSBuildEditorConfig.editorconfig
+/home/ozcan/software/C#-Egitim-Kampi/04-applications_with_loops/obj/Debug/net8.0/04-applications_with_loops.AssemblyInfoInputs.cache
+/home/ozcan/software/C#-Egitim-Kampi/04-applications_with_loops/obj/Debug/net8.0/04-applications_with_loops.AssemblyInfo.cs
+/home/ozcan/software/C#-Egitim-Kampi/04-applications_with_loops/obj/Debug/net8.0/04-applications_with_loops.csproj.CoreCompileInputs.cache
+/home/ozcan/software/C#-Egitim-Kampi/04-applications_with_loops/obj/Debug/net8.0/04-applications_with_loops.sourcelink.json
+/home/ozcan/software/C#-Egitim-Kampi/04-applications_with_loops/obj/Debug/net8.0/04-applications_with_loops.dll
+/home/ozcan/software/C#-Egitim-Kampi/04-applications_with_loops/obj/Debug/net8.0/refint/04-applications_with_loops.dll
+/home/ozcan/software/C#-Egitim-Kampi/04-applications_with_loops/obj/Debug/net8.0/04-applications_with_loops.pdb
+/home/ozcan/software/C#-Egitim-Kampi/04-applications_with_loops/obj/Debug/net8.0/04-applications_with_loops.genruntimeconfig.cache
+/home/ozcan/software/C#-Egitim-Kampi/04-applications_with_loops/obj/Debug/net8.0/ref/04-applications_with_loops.dll
