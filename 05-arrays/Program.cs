@@ -149,11 +149,28 @@
             int[] numbers5 = { 1, 4, 2, 8, 6, 0, 98, 3 };
             Console.WriteLine("maksimum : " + numbers5.Max());
             Console.WriteLine("minimum : " + numbers5.Min());
+            Console.WriteLine("-----------------------------");
 
 
             #endregion
 
 
+
+            #region Kullanıcıdan değer almak
+            string[] cities3 = new string[5];
+            for (int i = 0; i < cities3.Length; i++)
+            {
+                Console.Write($"lütfen {i + 1}. şehri giriniz : ");
+                cities3[i] = Console.ReadLine();
+            }
+            Console.WriteLine("-----------------------------");
+            for (int i = 0; i < cities3.Length; i++)
+            {
+                Console.WriteLine(cities3[i]);
+            }
+            Console.WriteLine("-----------------------------");
+
+            #endregion
 
 
             Console.Read();
