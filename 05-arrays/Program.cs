@@ -36,6 +36,11 @@
             Console.WriteLine(numbers[5]);
             Console.WriteLine("-----------------------------");
 
+
+            string[] cities2 = { "prag", "istanbul", "roma", "atina" };
+            Console.WriteLine(cities2[2]);
+            Console.WriteLine("-----------------------------");
+
             #endregion
 
             Console.Read();
