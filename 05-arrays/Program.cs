@@ -113,6 +113,49 @@
             #endregion
 
 
+
+            #region  Dizi metotları
+            string[] persons = { "burak", "zafer", "özcan" };
+            Console.WriteLine(persons.Length);
+            Console.WriteLine("-----------------------------");
+
+            int[] numbers4 = { 45, 85, 52, 41, 86 };
+            for (int i = 0; i < numbers4.Length; i++)
+            {
+                Console.WriteLine("normal dizi : " + numbers4[i]);
+            }
+            Console.WriteLine("-----------------------------");
+
+            Array.Sort(numbers4);
+            for (int i = 0; i < numbers4.Length; i++)
+            {
+                Console.WriteLine("sort ile dizi : " + numbers4[i]);
+            }
+            Console.WriteLine("-----------------------------");
+
+            Array.Reverse(numbers4);
+            for (int i = 0; i < numbers4.Length; i++)
+            {
+                Console.WriteLine("sorttan sonra reverse ile dizi : " + numbers4[i]);
+            }
+            Console.WriteLine("-----------------------------");
+
+            string[] customers = { "burak", "zafer", "özcan", "şevval" };
+            int index = Array.IndexOf(customers, "zafer");
+            Console.WriteLine(index);
+            Console.WriteLine("-----------------------------");
+
+
+            int[] numbers5 = { 1, 4, 2, 8, 6, 0, 98, 3 };
+            Console.WriteLine("maksimum : " + numbers5.Max());
+            Console.WriteLine("minimum : " + numbers5.Min());
+
+
+            #endregion
+
+
+
+
             Console.Read();
         }
     }
