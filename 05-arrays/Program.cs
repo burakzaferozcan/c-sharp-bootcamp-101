@@ -68,6 +68,51 @@
             #endregion
 
 
+            #region Char ile Dizi oluşturmak
+            char[] characters = { 'b', 'u', 'r', 'a', 'k' };
+            for (int i = 0; i < characters.Length; i++)
+            {
+                Console.WriteLine(characters[i]);
+            }
+            Console.WriteLine("-----------------------------");
+            #endregion
+
+
+            #region  Dizideki en büyük sayıyı bulmak
+            int[] myArray = { 2, 6, 90, -45, 23, 6, -12, 45, 6, 82, 7678 };
+            int maxNumber = myArray[0];
+            for (int i = 0; i < myArray.Length; i++)
+            {
+                if (myArray[i] > maxNumber)
+                {
+
+                    maxNumber = myArray[i];
+
+                }
+            }
+            Console.WriteLine(maxNumber);
+
+            Console.WriteLine("-----------------------------");
+            #endregion
+
+            #region  Dizideki en büyük sayıyı bulmak
+            int[] myArray2 = { 2, 6, 90, -45, 23, 6, -12, 45, 6, 82, 7678 };
+            int minNumber = myArray2[0];
+            for (int i = 0; i < myArray2.Length; i++)
+            {
+                if (myArray2[i] < minNumber)
+                {
+
+                    minNumber = myArray2[i];
+
+                }
+            }
+            Console.WriteLine(minNumber);
+
+            Console.WriteLine("-----------------------------");
+            #endregion
+
+
             Console.Read();
         }
     }
