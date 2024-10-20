@@ -1,0 +1,15 @@
+/home/ozcan/software/C#-Egitim-Kampi/05-arrays/obj/Debug/net8.0/05-arrays.GeneratedMSBuildEditorConfig.editorconfig
+/home/ozcan/software/C#-Egitim-Kampi/05-arrays/obj/Debug/net8.0/05-arrays.AssemblyInfoInputs.cache
+/home/ozcan/software/C#-Egitim-Kampi/05-arrays/obj/Debug/net8.0/05-arrays.AssemblyInfo.cs
+/home/ozcan/software/C#-Egitim-Kampi/05-arrays/obj/Debug/net8.0/05-arrays.csproj.CoreCompileInputs.cache
+/home/ozcan/software/C#-Egitim-Kampi/05-arrays/obj/Debug/net8.0/05-arrays.sourcelink.json
+/home/ozcan/software/C#-Egitim-Kampi/05-arrays/bin/Debug/net8.0/05-arrays
+/home/ozcan/software/C#-Egitim-Kampi/05-arrays/bin/Debug/net8.0/05-arrays.deps.json
+/home/ozcan/software/C#-Egitim-Kampi/05-arrays/bin/Debug/net8.0/05-arrays.runtimeconfig.json
+/home/ozcan/software/C#-Egitim-Kampi/05-arrays/bin/Debug/net8.0/05-arrays.dll
+/home/ozcan/software/C#-Egitim-Kampi/05-arrays/bin/Debug/net8.0/05-arrays.pdb
+/home/ozcan/software/C#-Egitim-Kampi/05-arrays/obj/Debug/net8.0/05-arrays.dll
+/home/ozcan/software/C#-Egitim-Kampi/05-arrays/obj/Debug/net8.0/refint/05-arrays.dll
+/home/ozcan/software/C#-Egitim-Kampi/05-arrays/obj/Debug/net8.0/05-arrays.pdb
+/home/ozcan/software/C#-Egitim-Kampi/05-arrays/obj/Debug/net8.0/05-arrays.genruntimeconfig.cache
+/home/ozcan/software/C#-Egitim-Kampi/05-arrays/obj/Debug/net8.0/ref/05-arrays.dll
