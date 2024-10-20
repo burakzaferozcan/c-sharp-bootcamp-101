@@ -53,6 +53,21 @@
             Console.WriteLine("-----------------------------");
             #endregion
 
+
+            #region Dizideki 3'e tam bölünen elemanları döngü ile listeleme
+            int[] number3 = { 1, 2, 09, 432, 84, 09328, 409238, 4, 435435, 67, 6, 23, 12, 5, 6, 7, 7, 8, 1, 9, 7, 6 };
+            for (int i = 0; i < number3.Length; i++)
+            {
+                if (number3[i] % 3 == 0)
+                {
+                    Console.WriteLine(number3[i]);
+
+                }
+            }
+            Console.WriteLine("-----------------------------");
+            #endregion
+
+
             Console.Read();
         }
     }
