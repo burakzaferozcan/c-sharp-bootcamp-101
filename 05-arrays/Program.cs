@@ -43,6 +43,16 @@
 
             #endregion
 
+
+            #region Dizideki tüm elemanları döngü ile listeleme
+            string[] colors2 = { "sarı", "kırmızı", "mavi", "yeşil", "turuncu", "pembe" };
+            for (int i = 0; i < colors2.Length; i++)
+            {
+                Console.WriteLine(colors2[i]);
+            }
+            Console.WriteLine("-----------------------------");
+            #endregion
+
             Console.Read();
         }
     }
