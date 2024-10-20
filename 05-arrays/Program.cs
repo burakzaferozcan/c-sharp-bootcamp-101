@@ -173,6 +173,43 @@
             #endregion
 
 
+            #region dizideki tüm değerleri toplamak
+            int[] numbers6 = { 12, 23, 34, 45, 56 };
+            int sum = 0;
+            for (int i = 0; i < numbers6.Length; i++)
+            {
+                sum += numbers6[i];
+            }
+            Console.WriteLine(sum);
+
+            Console.WriteLine("-----------------------------");
+
+            #endregion
+
+
+            #region Dizideki çift ve tek sayıları bulmak
+            int[] numbers7 = { 12, 23, 34, 45, 56, 45, 23, 65, 879, 23, 56, 782, 3445, 13456, 1, 2543, 8743 };
+            Console.WriteLine("çift sayılar : ");
+            for (int i = 0; i < numbers7.Length; i++)
+            {
+                if (numbers7[i] % 2 == 0)
+                {
+                    Console.WriteLine(numbers7[i]);
+                }
+            }
+
+            Console.WriteLine("-----------------------------");
+            Console.WriteLine("tek sayılar : ");
+            for (int i = 0; i < numbers7.Length; i++)
+            {
+                if (numbers7[i] % 2 == 1)
+                {
+                    Console.WriteLine(numbers7[i]);
+                }
+            }
+            Console.WriteLine("-----------------------------");
+
+            #endregion
             Console.Read();
         }
     }
