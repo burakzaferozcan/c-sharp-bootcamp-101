@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("06-foreach")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14d3b2a51a26a74d43c150b25166656d99fe1837")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afdfc84a305097dac8f3842fd7acad9917514d58")]
 [assembly: System.Reflection.AssemblyProductAttribute("06-foreach")]
 [assembly: System.Reflection.AssemblyTitleAttribute("06-foreach")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
