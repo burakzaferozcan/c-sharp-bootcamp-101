@@ -1,0 +1,15 @@
+/home/ozcan/software/C#-Egitim-Kampi/06-foreach/bin/Debug/net8.0/06-foreach
+/home/ozcan/software/C#-Egitim-Kampi/06-foreach/bin/Debug/net8.0/06-foreach.deps.json
+/home/ozcan/software/C#-Egitim-Kampi/06-foreach/bin/Debug/net8.0/06-foreach.runtimeconfig.json
+/home/ozcan/software/C#-Egitim-Kampi/06-foreach/bin/Debug/net8.0/06-foreach.dll
+/home/ozcan/software/C#-Egitim-Kampi/06-foreach/bin/Debug/net8.0/06-foreach.pdb
+/home/ozcan/software/C#-Egitim-Kampi/06-foreach/obj/Debug/net8.0/06-foreach.GeneratedMSBuildEditorConfig.editorconfig
+/home/ozcan/software/C#-Egitim-Kampi/06-foreach/obj/Debug/net8.0/06-foreach.AssemblyInfoInputs.cache
+/home/ozcan/software/C#-Egitim-Kampi/06-foreach/obj/Debug/net8.0/06-foreach.AssemblyInfo.cs
+/home/ozcan/software/C#-Egitim-Kampi/06-foreach/obj/Debug/net8.0/06-foreach.csproj.CoreCompileInputs.cache
+/home/ozcan/software/C#-Egitim-Kampi/06-foreach/obj/Debug/net8.0/06-foreach.sourcelink.json
+/home/ozcan/software/C#-Egitim-Kampi/06-foreach/obj/Debug/net8.0/06-foreach.dll
+/home/ozcan/software/C#-Egitim-Kampi/06-foreach/obj/Debug/net8.0/refint/06-foreach.dll
+/home/ozcan/software/C#-Egitim-Kampi/06-foreach/obj/Debug/net8.0/06-foreach.pdb
+/home/ozcan/software/C#-Egitim-Kampi/06-foreach/obj/Debug/net8.0/06-foreach.genruntimeconfig.cache
+/home/ozcan/software/C#-Egitim-Kampi/06-foreach/obj/Debug/net8.0/ref/06-foreach.dll
