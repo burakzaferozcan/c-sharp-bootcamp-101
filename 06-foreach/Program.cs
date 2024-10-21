@@ -48,6 +48,13 @@ namespace _06_foreach
             {
                 Console.WriteLine(number);
             }
+            Console.WriteLine("--------------------------");
+
+            string word = "Burak";
+            foreach (char c in word)
+            {
+                Console.WriteLine(c);
+            }
 
 
             #endregion
