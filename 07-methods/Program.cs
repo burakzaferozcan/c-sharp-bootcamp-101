@@ -89,7 +89,7 @@ namespace _07_methods
 
 
 
-            #region Geriye değer döndüren parametreli metotlar
+            #region Geriye değer döndüren string parametreli metotlar
             string CountryCard(string countryName, string capital, string flagColor)
             {
                 return "Ülke : " + countryName + "\nBaşkent : " + capital + "\nBayrak rengi :  " + flagColor;
@@ -98,6 +98,50 @@ namespace _07_methods
             string country2 = CountryCard("fransa", "paris", "lacivert-beyaz-kırmızı");
             Console.WriteLine(country1);
             Console.WriteLine(country2);
+            Console.WriteLine("-----------------------");
+
+
+            Console.Write("ülke adını giriniz : ");
+            string countryName = Console.ReadLine();
+            Console.Write("ülke başkentini giriniz : ");
+            string countryCapital = Console.ReadLine();
+            Console.Write("ülke bayrak rengini giriniz : ");
+            string countryFlagColor = Console.ReadLine();
+            string country3 = CountryCard(countryName, countryCapital, countryFlagColor);
+            Console.WriteLine(country3);
+
+            Console.WriteLine("-----------------------");
+
+            #endregion
+
+            #region Geriye değer döndüren integer parametreli metotlar
+
+            int Sum3(int number1, int number2)
+            {
+                int result = number1 + number2;
+                return result;
+            }
+            Console.WriteLine(Sum3(45, 80));
+            Console.WriteLine(Sum3(2, 812));
+            Console.WriteLine(Sum3(4, 2));
+            Console.WriteLine(Sum3(123, 42));
+            Console.WriteLine("-----------------------");
+
+            string ExamResult(string studentName, int exam1, int exam2, int exam3)
+            {
+                int result = (exam1 + exam2 + exam3) / 3;
+                if (result >= 50)
+                {
+                    return studentName + " Öğrenci sınavi geçti. Ortalama : " + result;
+                }
+                else
+                {
+                    return studentName + " Öğrenci sınavdan kaldı. Ortalama : " + result;
+                }
+            }
+            Console.WriteLine(ExamResult("burak", 2, 3, 4));
+            Console.WriteLine(ExamResult("burak", 80, 90, 100));
+
             Console.WriteLine("-----------------------");
 
             #endregion
