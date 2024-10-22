@@ -87,6 +87,21 @@ namespace _07_methods
 
             #endregion
 
+
+
+            #region Geriye değer döndüren parametreli metotlar
+            string CountryCard(string countryName, string capital, string flagColor)
+            {
+                return "Ülke : " + countryName + "\nBaşkent : " + capital + "\nBayrak rengi :  " + flagColor;
+            }
+            string country1 = CountryCard("türkiye", "ankara", "kırmızı-beyaz");
+            string country2 = CountryCard("fransa", "paris", "lacivert-beyaz-kırmızı");
+            Console.WriteLine(country1);
+            Console.WriteLine(country2);
+            Console.WriteLine("-----------------------");
+
+            #endregion
+
             Console.Read();
         }
     }
