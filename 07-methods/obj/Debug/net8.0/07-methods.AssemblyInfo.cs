@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("06-foreach")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("07-methods")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6526232d91e9338d3d2821833c4322e3996d8fd2")]
-[assembly: System.Reflection.AssemblyProductAttribute("06-foreach")]
-[assembly: System.Reflection.AssemblyTitleAttribute("06-foreach")]
+[assembly: System.Reflection.AssemblyProductAttribute("07-methods")]
+[assembly: System.Reflection.AssemblyTitleAttribute("07-methods")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.

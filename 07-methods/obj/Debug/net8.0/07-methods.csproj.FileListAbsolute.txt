@@ -1,0 +1,15 @@
+/home/ozcan/software/C#-Egitim-Kampi/07-methods/bin/Debug/net8.0/07-methods
+/home/ozcan/software/C#-Egitim-Kampi/07-methods/bin/Debug/net8.0/07-methods.deps.json
+/home/ozcan/software/C#-Egitim-Kampi/07-methods/bin/Debug/net8.0/07-methods.runtimeconfig.json
+/home/ozcan/software/C#-Egitim-Kampi/07-methods/bin/Debug/net8.0/07-methods.dll
+/home/ozcan/software/C#-Egitim-Kampi/07-methods/bin/Debug/net8.0/07-methods.pdb
+/home/ozcan/software/C#-Egitim-Kampi/07-methods/obj/Debug/net8.0/07-methods.GeneratedMSBuildEditorConfig.editorconfig
+/home/ozcan/software/C#-Egitim-Kampi/07-methods/obj/Debug/net8.0/07-methods.AssemblyInfoInputs.cache
+/home/ozcan/software/C#-Egitim-Kampi/07-methods/obj/Debug/net8.0/07-methods.AssemblyInfo.cs
+/home/ozcan/software/C#-Egitim-Kampi/07-methods/obj/Debug/net8.0/07-methods.csproj.CoreCompileInputs.cache
+/home/ozcan/software/C#-Egitim-Kampi/07-methods/obj/Debug/net8.0/07-methods.sourcelink.json
+/home/ozcan/software/C#-Egitim-Kampi/07-methods/obj/Debug/net8.0/07-methods.dll
+/home/ozcan/software/C#-Egitim-Kampi/07-methods/obj/Debug/net8.0/refint/07-methods.dll
+/home/ozcan/software/C#-Egitim-Kampi/07-methods/obj/Debug/net8.0/07-methods.pdb
+/home/ozcan/software/C#-Egitim-Kampi/07-methods/obj/Debug/net8.0/07-methods.genruntimeconfig.cache
+/home/ozcan/software/C#-Egitim-Kampi/07-methods/obj/Debug/net8.0/ref/07-methods.dll
