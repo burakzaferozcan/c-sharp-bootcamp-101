@@ -5,7 +5,7 @@ namespace _07_methods
     {
         static void Main(string[] args)
         {
-            #region Metotlar
+            #region Geriye değer döndürmeyen parametresiz metotlar
             void CustomerList()
             {
                 Console.WriteLine("burak");
@@ -24,6 +24,28 @@ namespace _07_methods
             }
             sum();
             Console.WriteLine("-----------------------");
+            #endregion
+
+            #region Geriye değer döndürmeyen parametreli metotlar
+            void writeMethod(string customerName)
+            {
+                Console.WriteLine(customerName);
+            }
+            string name = "zafer";
+            writeMethod("burak");
+            writeMethod(name);
+            Console.WriteLine("-----------------------");
+
+            void customerCard(string name, string surname)
+            {
+                Console.WriteLine(name + " " + surname);
+            }
+            string customerName = "Burak Zafer";
+            string customerSurname = "Özcan";
+            customerCard(customerName, customerSurname);
+            Console.WriteLine("-----------------------");
+
+
 
             #endregion
 
