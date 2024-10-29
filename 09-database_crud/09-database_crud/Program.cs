@@ -75,19 +75,42 @@ namespace _09_database_crud
 
             
             #region (Delete) Ürün Silme İşlemi
-            Console.Write("Silinecek ürün id : ");
-            int productId = int.Parse(Console.ReadLine());
-            SqlConnection connection = new SqlConnection("Server=localhost;Database=EgitimKampiDB;User Id=sa;Password=burak.88bb;TrustServerCertificate=True;");
-
-            connection.Open();
-            SqlCommand command = new SqlCommand("delete from TblProduct where ProductId=@productId",connection);
-
-            command.Parameters.AddWithValue("@productId",productId);
-            command.ExecuteNonQuery();
+            // Console.Write("Silinecek ürün id : ");
+            // int productId = int.Parse(Console.ReadLine());
+            // SqlConnection connection = new SqlConnection("Server=localhost;Database=EgitimKampiDB;User Id=sa;Password=burak.88bb;TrustServerCertificate=True;");
+            //
+            // connection.Open();
+            // SqlCommand command = new SqlCommand("delete from TblProduct where ProductId=@productId",connection);
+            //
+            // command.Parameters.AddWithValue("@productId",productId);
+            // command.ExecuteNonQuery();
+            //
+            // connection.Close();
+            // Console.WriteLine("Ürün Başarıyla Silindi!");
+            #endregion
             
-            connection.Close();
             
-            Console.WriteLine("Ürün Başarıyla Silindi!");
+            #region (UPDATE) Ürün gÜNCELLEME İşlemi
+             Console.Write("Güncellenecek Ürün ID: ");
+             int productId =int.Parse(Console.ReadLine());
+             Console.Write("Güncellenecek Ürün Adı: ");
+             string productName =Console.ReadLine();
+             Console.Write("Güncellenecek Ürün Fiyatı: ");
+             decimal productPrice =decimal.Parse(Console.ReadLine());
+             bool productStatus;
+            
+             SqlConnection connection = new SqlConnection("Server=localhost;Database=EgitimKampiDB;User Id=sa;Password=burak.88bb;TrustServerCertificate=True;");
+            
+             connection.Open();
+             SqlCommand command = new SqlCommand("update TblProduct set ProductName=@productName,ProductPrice=@productPrice where ProductId=@productId",connection);
+            
+             command.Parameters.AddWithValue("@productName", productName);
+             command.Parameters.AddWithValue("@productPrice", productPrice);
+             command.Parameters.AddWithValue("@productId", productId);
+             command.ExecuteNonQuery();
+            
+             connection.Close();
+             Console.WriteLine("Ürün Başarıyla Güncellendi!");
             #endregion
         }
     }
