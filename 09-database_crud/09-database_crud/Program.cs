@@ -53,26 +53,42 @@ namespace _09_database_crud
 
             
             #region (Read) Ürün Listeleme İşlemi
+            // SqlConnection connection = new SqlConnection("Server=localhost;Database=EgitimKampiDB;User Id=sa;Password=burak.88bb;TrustServerCertificate=True;");
+            //
+            // connection.Open();
+            // SqlCommand command = new SqlCommand("select * from TblProduct",connection);
+            //
+            // SqlDataAdapter adapter = new SqlDataAdapter(command);
+            // DataTable dataTable = new DataTable();
+            // adapter.Fill(dataTable);
+            //
+            // foreach (DataRow row in dataTable.Rows)
+            // {
+            //     foreach (var item in row.ItemArray)
+            //     {
+            //         Console.Write(item.ToString() + " ");
+            //     }
+            //     Console.WriteLine();
+            // }
+            // connection.Close();
+            #endregion
+
+            
+            #region (Delete) Ürün Silme İşlemi
+            Console.Write("Silinecek ürün id : ");
+            int productId = int.Parse(Console.ReadLine());
             SqlConnection connection = new SqlConnection("Server=localhost;Database=EgitimKampiDB;User Id=sa;Password=burak.88bb;TrustServerCertificate=True;");
 
             connection.Open();
-            SqlCommand command = new SqlCommand("select * from TblProduct",connection);
+            SqlCommand command = new SqlCommand("delete from TblProduct where ProductId=@productId",connection);
 
-            SqlDataAdapter adapter = new SqlDataAdapter(command);
-            DataTable dataTable = new DataTable();
-            adapter.Fill(dataTable);
+            command.Parameters.AddWithValue("@productId",productId);
+            command.ExecuteNonQuery();
             
-            foreach (DataRow row in dataTable.Rows)
-            {
-                foreach (var item in row.ItemArray)
-                {
-                    Console.Write(item.ToString() + " ");
-                }
-                Console.WriteLine();
-            }
             connection.Close();
+            
+            Console.WriteLine("Ürün Başarıyla Silindi!");
             #endregion
-
         }
     }
 }
