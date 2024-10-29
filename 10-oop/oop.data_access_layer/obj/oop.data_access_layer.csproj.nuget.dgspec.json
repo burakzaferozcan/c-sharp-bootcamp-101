@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/ozcan/software/C#-Egitim-Kampi/00-main_subjects/00-main_subjects/00-main_subjects.csproj": {}
+    "/home/ozcan/software/C#-Egitim-Kampi/10-oop/oop.data_access_layer/oop.data_access_layer.csproj": {}
   },
   "projects": {
-    "/home/ozcan/software/C#-Egitim-Kampi/00-main_subjects/00-main_subjects/00-main_subjects.csproj": {
+    "/home/ozcan/software/C#-Egitim-Kampi/10-oop/oop.data_access_layer/oop.data_access_layer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ozcan/software/C#-Egitim-Kampi/00-main_subjects/00-main_subjects/00-main_subjects.csproj",
-        "projectName": "00-main_subjects",
-        "projectPath": "/home/ozcan/software/C#-Egitim-Kampi/00-main_subjects/00-main_subjects/00-main_subjects.csproj",
+        "projectUniqueName": "/home/ozcan/software/C#-Egitim-Kampi/10-oop/oop.data_access_layer/oop.data_access_layer.csproj",
+        "projectName": "oop.data_access_layer",
+        "projectPath": "/home/ozcan/software/C#-Egitim-Kampi/10-oop/oop.data_access_layer/oop.data_access_layer.csproj",
         "packagesPath": "/home/ozcan/.nuget/packages/",
-        "outputPath": "/home/ozcan/software/C#-Egitim-Kampi/00-main_subjects/00-main_subjects/obj/",
+        "outputPath": "/home/ozcan/software/C#-Egitim-Kampi/10-oop/oop.data_access_layer/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/ozcan/.nuget/NuGet/NuGet.Config"

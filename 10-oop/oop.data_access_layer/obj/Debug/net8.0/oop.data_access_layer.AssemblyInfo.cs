@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("00-main_subjects")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("oop.data_access_layer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+239bc3fa2dc5c7806458e86d7f34e2118bce3e67")]
-[assembly: System.Reflection.AssemblyProductAttribute("00-main_subjects")]
-[assembly: System.Reflection.AssemblyTitleAttribute("00-main_subjects")]
+[assembly: System.Reflection.AssemblyProductAttribute("oop.data_access_layer")]
+[assembly: System.Reflection.AssemblyTitleAttribute("oop.data_access_layer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
